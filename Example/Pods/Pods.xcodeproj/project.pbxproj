@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30C9E462868A2552ED5827CDD3ACC466 /* Pods-SimpleQRCodeScanner_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9E44A5888A041725DE199C12B37E5E4 /* Pods-SimpleQRCodeScanner_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32B02646B783E8448ECEBF5FDD39B162 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */; };
+		35B71B0007E48AEC94A02686B8E5F1A3 /* SimpleQRCodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2953AE54858F557181D23BA2F543F67E /* SimpleQRCodeScannerView.swift */; };
+		57333DE8AC2C763B603263EC6615C7D1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD3A287BB87F4D3C474EC576926A0F89 /* AVFoundation.framework */; };
+		BB7C3452DF2A5185879805CE3E0F366F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C4BD65EEF247D4C8A723C0F18B326C /* UIKit.framework */; };
+		C006196294F25304506D37388E366773 /* SimpleQRCodeMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939CC437A5CCBF22BE766CD44B9BE0A /* SimpleQRCodeMaskView.swift */; };
+		DF45837355088D539E627D33A0BADFD6 /* SimpleQRCodeScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80B2E7E82755BBC97A8D9B7E95FDEC52 /* SimpleQRCodeScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6BAE5797D59E21FCE45CFBF1FAB8F4C /* Pods-SimpleQRCodeScanner_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA7D8084EAB30432D0B70DC24425BBC /* Pods-SimpleQRCodeScanner_Example-dummy.m */; };
+		EABEB2D446D3C0D41146B541DB7373B0 /* SimpleQRCodeScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EE15918FED196F68A15A329C3BC169 /* SimpleQRCodeScanner-dummy.m */; };
+		EF28A335856150E449955C205222FC86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29C37D4CC6B297C00EA553897C048C9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02BF64F0444F6B53B7A79ECC2F8C52C7;
+			remoteInfo = SimpleQRCodeScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		264005F5B5B7748BB729EA8E127CA309 /* Pods-SimpleQRCodeScanner_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleQRCodeScanner_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2953AE54858F557181D23BA2F543F67E /* SimpleQRCodeScannerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleQRCodeScannerView.swift; path = SimpleQRCodeScanner/Classes/SimpleQRCodeScannerView.swift; sourceTree = "<group>"; };
+		2FE37D86BF961733AB3EDE32B10B3D5D /* SimpleQRCodeScanner.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SimpleQRCodeScanner.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3704CEECEFCE7BECBF16B346982EEF02 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3791D5984506D7A9B2AA1A8520A9D121 /* Pods-SimpleQRCodeScanner_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleQRCodeScanner_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3A0DAC077C3FD56626519DE935E9BBCF /* SimpleQRCodeScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleQRCodeScanner.framework; path = SimpleQRCodeScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F6ADEE4AD97AC6A8A6FB2611E85615E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5D12553709B72101CD99FF2FBE59FABE /* Pods-SimpleQRCodeScanner_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleQRCodeScanner_Example-resources.sh"; sourceTree = "<group>"; };
+		63C4BD65EEF247D4C8A723C0F18B326C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		6EA7D8084EAB30432D0B70DC24425BBC /* Pods-SimpleQRCodeScanner_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleQRCodeScanner_Example-dummy.m"; sourceTree = "<group>"; };
+		7DD0DE3BE8F161CB9F51757168FF26A1 /* SimpleQRCodeScanner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleQRCodeScanner.xcconfig; sourceTree = "<group>"; };
+		80B2E7E82755BBC97A8D9B7E95FDEC52 /* SimpleQRCodeScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleQRCodeScanner-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95B4E244E3E9430D256FD8977EDDEAF5 /* Pods-SimpleQRCodeScanner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleQRCodeScanner_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A8EAB6E6CB37FAAE891C9E31005BBAB6 /* Pods_SimpleQRCodeScanner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleQRCodeScanner_Example.framework; path = "Pods-SimpleQRCodeScanner_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A919F646F354884EA6F43CE333C6547B /* SimpleQRCodeScanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleQRCodeScanner-prefix.pch"; sourceTree = "<group>"; };
+		B24230E5B7F627B8F396FB131BF7475C /* Pods-SimpleQRCodeScanner_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SimpleQRCodeScanner_Example.modulemap"; sourceTree = "<group>"; };
+		B858EC842B755D640C0C4FBB2AE77197 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBB4A7E623BD234F88AF6466429E3E6B /* SimpleQRCodeScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SimpleQRCodeScanner.modulemap; sourceTree = "<group>"; };
+		C9D36B7DD567D23111D9934BA404C030 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C9E44A5888A041725DE199C12B37E5E4 /* Pods-SimpleQRCodeScanner_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleQRCodeScanner_Example-umbrella.h"; sourceTree = "<group>"; };
+		CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E6EE15918FED196F68A15A329C3BC169 /* SimpleQRCodeScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleQRCodeScanner-dummy.m"; sourceTree = "<group>"; };
+		EEC2829D439A10FACB80399E051A607E /* Pods-SimpleQRCodeScanner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleQRCodeScanner_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F036117F78E5F947B3CC2CCD8CCD5543 /* Pods-SimpleQRCodeScanner_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleQRCodeScanner_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F939CC437A5CCBF22BE766CD44B9BE0A /* SimpleQRCodeMaskView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleQRCodeMaskView.swift; path = SimpleQRCodeScanner/Classes/SimpleQRCodeMaskView.swift; sourceTree = "<group>"; };
+		FD3A287BB87F4D3C474EC576926A0F89 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9868C726EDC5BFBF2CE9848DDD2368F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57333DE8AC2C763B603263EC6615C7D1 /* AVFoundation.framework in Frameworks */,
+				32B02646B783E8448ECEBF5FDD39B162 /* Foundation.framework in Frameworks */,
+				BB7C3452DF2A5185879805CE3E0F366F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE75E5E49D5D19FED2B0D2F5275C02EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF28A335856150E449955C205222FC86 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				715827B6A84C2549CD0FBA09A28FA485 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18CBDB01F8A5533C23816B897BEBB05A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8EAB6E6CB37FAAE891C9E31005BBAB6 /* Pods_SimpleQRCodeScanner_Example.framework */,
+				3A0DAC077C3FD56626519DE935E9BBCF /* SimpleQRCodeScanner.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CFF56012BC7E3BA868626FA5F181B6B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BC703D7471FB89D85E3CE79DE498422 /* SimpleQRCodeScanner */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		715827B6A84C2549CD0FBA09A28FA485 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FD3A287BB87F4D3C474EC576926A0F89 /* AVFoundation.framework */,
+				CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */,
+				63C4BD65EEF247D4C8A723C0F18B326C /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7BC703D7471FB89D85E3CE79DE498422 /* SimpleQRCodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				F939CC437A5CCBF22BE766CD44B9BE0A /* SimpleQRCodeMaskView.swift */,
+				2953AE54858F557181D23BA2F543F67E /* SimpleQRCodeScannerView.swift */,
+				E1D3EB913C0A0F874142FB0441136E74 /* Pod */,
+				FD09742FE30BF90650B1C00CC573A1D0 /* Support Files */,
+			);
+			name = SimpleQRCodeScanner;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				2CFF56012BC7E3BA868626FA5F181B6B /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				18CBDB01F8A5533C23816B897BEBB05A /* Products */,
+				83BC52F60C7221011C3B3BF825DE44D4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83BC52F60C7221011C3B3BF825DE44D4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				95613514583195428B2D92D139FE4CF2 /* Pods-SimpleQRCodeScanner_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		95613514583195428B2D92D139FE4CF2 /* Pods-SimpleQRCodeScanner_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3704CEECEFCE7BECBF16B346982EEF02 /* Info.plist */,
+				B24230E5B7F627B8F396FB131BF7475C /* Pods-SimpleQRCodeScanner_Example.modulemap */,
+				F036117F78E5F947B3CC2CCD8CCD5543 /* Pods-SimpleQRCodeScanner_Example-acknowledgements.markdown */,
+				3791D5984506D7A9B2AA1A8520A9D121 /* Pods-SimpleQRCodeScanner_Example-acknowledgements.plist */,
+				6EA7D8084EAB30432D0B70DC24425BBC /* Pods-SimpleQRCodeScanner_Example-dummy.m */,
+				264005F5B5B7748BB729EA8E127CA309 /* Pods-SimpleQRCodeScanner_Example-frameworks.sh */,
+				5D12553709B72101CD99FF2FBE59FABE /* Pods-SimpleQRCodeScanner_Example-resources.sh */,
+				C9E44A5888A041725DE199C12B37E5E4 /* Pods-SimpleQRCodeScanner_Example-umbrella.h */,
+				EEC2829D439A10FACB80399E051A607E /* Pods-SimpleQRCodeScanner_Example.debug.xcconfig */,
+				95B4E244E3E9430D256FD8977EDDEAF5 /* Pods-SimpleQRCodeScanner_Example.release.xcconfig */,
+			);
+			name = "Pods-SimpleQRCodeScanner_Example";
+			path = "Target Support Files/Pods-SimpleQRCodeScanner_Example";
+			sourceTree = "<group>";
+		};
+		E1D3EB913C0A0F874142FB0441136E74 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C9D36B7DD567D23111D9934BA404C030 /* LICENSE */,
+				4F6ADEE4AD97AC6A8A6FB2611E85615E /* README.md */,
+				2FE37D86BF961733AB3EDE32B10B3D5D /* SimpleQRCodeScanner.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FD09742FE30BF90650B1C00CC573A1D0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B858EC842B755D640C0C4FBB2AE77197 /* Info.plist */,
+				BBB4A7E623BD234F88AF6466429E3E6B /* SimpleQRCodeScanner.modulemap */,
+				7DD0DE3BE8F161CB9F51757168FF26A1 /* SimpleQRCodeScanner.xcconfig */,
+				E6EE15918FED196F68A15A329C3BC169 /* SimpleQRCodeScanner-dummy.m */,
+				A919F646F354884EA6F43CE333C6547B /* SimpleQRCodeScanner-prefix.pch */,
+				80B2E7E82755BBC97A8D9B7E95FDEC52 /* SimpleQRCodeScanner-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SimpleQRCodeScanner";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		332E84F2170FBE3E210DB9CC544AA9A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF45837355088D539E627D33A0BADFD6 /* SimpleQRCodeScanner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FFA6B1BD59D9654954F5868EE662AF1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C9E462868A2552ED5827CDD3ACC466 /* Pods-SimpleQRCodeScanner_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02BF64F0444F6B53B7A79ECC2F8C52C7 /* SimpleQRCodeScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 621AD47D7ED89E72A6F46098296A99B3 /* Build configuration list for PBXNativeTarget "SimpleQRCodeScanner" */;
+			buildPhases = (
+				58B3187CAFA0043011CD6B8A2B789C7A /* Sources */,
+				A9868C726EDC5BFBF2CE9848DDD2368F /* Frameworks */,
+				332E84F2170FBE3E210DB9CC544AA9A9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleQRCodeScanner;
+			productName = SimpleQRCodeScanner;
+			productReference = 3A0DAC077C3FD56626519DE935E9BBCF /* SimpleQRCodeScanner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4C04986698963D515D8DB0C9E8599074 /* Pods-SimpleQRCodeScanner_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A81F6ADDFD526C43F5E52610EBB2E77D /* Build configuration list for PBXNativeTarget "Pods-SimpleQRCodeScanner_Example" */;
+			buildPhases = (
+				BB2DF78FEBC2FAAF363AD70F24B4C941 /* Sources */,
+				FE75E5E49D5D19FED2B0D2F5275C02EE /* Frameworks */,
+				4FFA6B1BD59D9654954F5868EE662AF1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD8BB8960FF7C3B77AAAB96DF2166826 /* PBXTargetDependency */,
+			);
+			name = "Pods-SimpleQRCodeScanner_Example";
+			productName = "Pods-SimpleQRCodeScanner_Example";
+			productReference = A8EAB6E6CB37FAAE891C9E31005BBAB6 /* Pods_SimpleQRCodeScanner_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 18CBDB01F8A5533C23816B897BEBB05A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C04986698963D515D8DB0C9E8599074 /* Pods-SimpleQRCodeScanner_Example */,
+				02BF64F0444F6B53B7A79ECC2F8C52C7 /* SimpleQRCodeScanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B3187CAFA0043011CD6B8A2B789C7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C006196294F25304506D37388E366773 /* SimpleQRCodeMaskView.swift in Sources */,
+				EABEB2D446D3C0D41146B541DB7373B0 /* SimpleQRCodeScanner-dummy.m in Sources */,
+				35B71B0007E48AEC94A02686B8E5F1A3 /* SimpleQRCodeScannerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2DF78FEBC2FAAF363AD70F24B4C941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6BAE5797D59E21FCE45CFBF1FAB8F4C /* Pods-SimpleQRCodeScanner_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD8BB8960FF7C3B77AAAB96DF2166826 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimpleQRCodeScanner;
+			target = 02BF64F0444F6B53B7A79ECC2F8C52C7 /* SimpleQRCodeScanner */;
+			targetProxy = 29C37D4CC6B297C00EA553897C048C9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C22BDF65FD74A7C661696AC267C20F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DD0DE3BE8F161CB9F51757168FF26A1 /* SimpleQRCodeScanner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleQRCodeScanner/SimpleQRCodeScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleQRCodeScanner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimpleQRCodeScanner/SimpleQRCodeScanner.modulemap";
+				PRODUCT_NAME = SimpleQRCodeScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39D51CD00AD39B10A511BD7804EEE857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95B4E244E3E9430D256FD8977EDDEAF5 /* Pods-SimpleQRCodeScanner_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleQRCodeScanner_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleQRCodeScanner_Example/Pods-SimpleQRCodeScanner_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SimpleQRCodeScanner_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		822822AB90004C2A58FA55743CE7226C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEC2829D439A10FACB80399E051A607E /* Pods-SimpleQRCodeScanner_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleQRCodeScanner_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleQRCodeScanner_Example/Pods-SimpleQRCodeScanner_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SimpleQRCodeScanner_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DDFE9582CC2AABE2DC7928B992E45A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DD0DE3BE8F161CB9F51757168FF26A1 /* SimpleQRCodeScanner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleQRCodeScanner/SimpleQRCodeScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleQRCodeScanner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimpleQRCodeScanner/SimpleQRCodeScanner.modulemap";
+				PRODUCT_NAME = SimpleQRCodeScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		621AD47D7ED89E72A6F46098296A99B3 /* Build configuration list for PBXNativeTarget "SimpleQRCodeScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C22BDF65FD74A7C661696AC267C20F4 /* Debug */,
+				DDFE9582CC2AABE2DC7928B992E45A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A81F6ADDFD526C43F5E52610EBB2E77D /* Build configuration list for PBXNativeTarget "Pods-SimpleQRCodeScanner_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				822822AB90004C2A58FA55743CE7226C /* Debug */,
+				39D51CD00AD39B10A511BD7804EEE857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

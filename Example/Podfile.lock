@@ -1,0 +1,16 @@
+PODS:
+  - SimpleQRCodeScanner (0.1.0)
+
+DEPENDENCIES:
+  - SimpleQRCodeScanner (from `../`)
+
+EXTERNAL SOURCES:
+  SimpleQRCodeScanner:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SimpleQRCodeScanner: 266b10884304fe89388633e4be8f40572a519d8d
+
+PODFILE CHECKSUM: 924f256a4411225ffc388db2084c17d9922ad6ff
+
+COCOAPODS: 1.4.0
