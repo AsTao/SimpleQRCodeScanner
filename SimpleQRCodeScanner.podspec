@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SimpleQRCodeScanner'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of SimpleQRCodeScanner.'
 
 # This description is used to generate tags and improve search results.
@@ -22,23 +22,13 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/AsTao/SimpleQRCodeScanner'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ssTaoz' => '236048180@qq.com' }
+  s.author           = { 'tobias' => '236048180@qq.com' }
   s.source           = { :git => 'https://github.com/AsTao/SimpleQRCodeScanner.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
+  s.ios.deployment_target = '9.0'
   s.source_files = 'SimpleQRCodeScanner/Classes/**/*'
   s.frameworks = 'UIKit', 'AVFoundation'
   s.swift_version = '4.1'
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.1' }
-  # s.resource_bundles = {
-  #   'SimpleQRCodeScanner' => ['SimpleQRCodeScanner/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

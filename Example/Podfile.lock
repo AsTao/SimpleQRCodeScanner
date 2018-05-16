@@ -1,5 +1,5 @@
 PODS:
-  - SimpleQRCodeScanner (0.1.0)
+  - SimpleQRCodeScanner (0.1.1)
 
 DEPENDENCIES:
   - SimpleQRCodeScanner (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SimpleQRCodeScanner: 266b10884304fe89388633e4be8f40572a519d8d
+  SimpleQRCodeScanner: 57ca325c117100ec49b7d78384fcc4dca9c0f663
 
 PODFILE CHECKSUM: 924f256a4411225ffc388db2084c17d9922ad6ff
 

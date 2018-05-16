@@ -304,7 +304,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2C22BDF65FD74A7C661696AC267C20F4 /* Debug */ = {
+		2F0DAEA4FEC4556FAE0975801E33AFBB /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7DD0DE3BE8F161CB9F51757168FF26A1 /* SimpleQRCodeScanner.xcconfig */;
 			buildSettings = {
@@ -320,20 +320,21 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SimpleQRCodeScanner/SimpleQRCodeScanner-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SimpleQRCodeScanner/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SimpleQRCodeScanner/SimpleQRCodeScanner.modulemap";
 				PRODUCT_NAME = SimpleQRCodeScanner;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		39D51CD00AD39B10A511BD7804EEE857 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -524,7 +525,7 @@
 			};
 			name = Release;
 		};
-		DDFE9582CC2AABE2DC7928B992E45A50 /* Release */ = {
+		DF160C689FCE0D755738B107A82A5BB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7DD0DE3BE8F161CB9F51757168FF26A1 /* SimpleQRCodeScanner.xcconfig */;
 			buildSettings = {
@@ -540,21 +541,20 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SimpleQRCodeScanner/SimpleQRCodeScanner-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SimpleQRCodeScanner/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SimpleQRCodeScanner/SimpleQRCodeScanner.modulemap";
 				PRODUCT_NAME = SimpleQRCodeScanner;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -571,8 +571,8 @@
 		621AD47D7ED89E72A6F46098296A99B3 /* Build configuration list for PBXNativeTarget "SimpleQRCodeScanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2C22BDF65FD74A7C661696AC267C20F4 /* Debug */,
-				DDFE9582CC2AABE2DC7928B992E45A50 /* Release */,
+				DF160C689FCE0D755738B107A82A5BB5 /* Debug */,
+				2F0DAEA4FEC4556FAE0975801E33AFBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

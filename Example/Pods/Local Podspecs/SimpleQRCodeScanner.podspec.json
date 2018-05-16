@@ -1,6 +1,6 @@
 {
   "name": "SimpleQRCodeScanner",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of SimpleQRCodeScanner.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/AsTao/SimpleQRCodeScanner",
@@ -9,14 +9,14 @@
     "file": "LICENSE"
   },
   "authors": {
-    "ssTaoz": "236048180@qq.com"
+    "tobias": "236048180@qq.com"
   },
   "source": {
     "git": "https://github.com/AsTao/SimpleQRCodeScanner.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "SimpleQRCodeScanner/Classes/**/*",
   "frameworks": [
