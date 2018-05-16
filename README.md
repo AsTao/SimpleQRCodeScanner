@@ -5,23 +5,23 @@
 
 ```swift
 override func viewDidLoad() {
-super.viewDidLoad()
-self.scanner.resultBlock = { [weak self] code in
-print(code)
-self?.navigationController?.popViewController(animated: true)
-}
+    super.viewDidLoad()
+        self.scanner.resultBlock = { [weak self] code in
+        print(code)
+        self?.navigationController?.popViewController(animated: true)
+    }
 }
 
 @IBOutlet weak var scanner: QRCodeScannerView!
+
 override func viewWillAppear(_ animated: Bool) {
-super.viewWillAppear(animated)
-self.scanner.start()
+    super.viewWillAppear(animated)
+    self.scanner.start()
 }
 
 override func viewWillDisappear(_ animated: Bool) {
-super.viewWillDisappear(animated)
-self.scanner.stop()
-}
+    super.viewWillDisappear(animated)
+    self.scanner.stop()
 }
 ```
 
