@@ -49,7 +49,7 @@ public class SimpleQRCodeMaskView: UIView {
     @objc public func addTimer(){
         self.timer?.invalidate()
         self.timer = Timer(fireAt: Date.distantPast, interval: 1.2, target: self, selector: #selector(timerFired), userInfo: nil, repeats: true)
-        RunLoop.main.add(self.timer!, forMode: RunLoopMode.commonModes)
+        RunLoop.main.add(self.timer!, forMode: RunLoop.Mode.common)
     }
     
     @objc public func removeTimer(){
